@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`volunteerPortal should render  1`] = `
+Array [
+  <React.Fragment>
+    <styled.div>
+      <Modal
+        animation={true}
+        autoFocus={true}
+        backdrop={true}
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+      >
+        <ModalHeader
+          closeButton={true}
+          closeLabel="Close"
+        >
+          <ModalTitle>
+            No Task Assigned Presently
+          </ModalTitle>
+        </ModalHeader>
+        <ModalFooter>
+          <Button
+            active={false}
+            disabled={false}
+            onClick={[Function]}
+            variant="primary"
+          >
+            Close
+          </Button>
+        </ModalFooter>
+      </Modal>
+      <Volnavbar />
+      <div
+        className="section1"
+      >
+        <h1
+          className="head"
+        >
+          VOLUNTEER DASHBOARD
+        </h1>
+        <Button
+          active={false}
+          className="buttons1"
+          disabled={false}
+          onClick={[Function]}
+          size="lg"
+          variant="primary"
+        >
+          Click To Get Task
+        </Button>
+        <ForwardRef
+          bordered={true}
+          hover={true}
+          striped={true}
+          variant="dark"
+        >
+          <thead>
+            <tr>
+              <th>
+                Task
+              </th>
+              <th>
+                Customer Name
+              </th>
+              <th>
+                Customer Phone Number
+              </th>
+              <th>
+                Address
+              </th>
+              <th>
+                Task Status
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </ForwardRef>
+      </div>
+    </styled.div>
+    <Footer />
+  </React.Fragment>,
+]
+`;

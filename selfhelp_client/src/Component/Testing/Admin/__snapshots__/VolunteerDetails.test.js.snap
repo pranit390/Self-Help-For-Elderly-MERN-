@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Volunteer Details should render my component 1`] = `
+Array [
+  <styled.div>
+    <React.Fragment>
+      <AdminNavigationBar />
+      <Container
+        fluid={false}
+      >
+        <div
+          class="container1"
+        >
+          <div
+            class="boxes"
+          >
+            <h3
+              class="h3"
+            >
+              All Volunteers
+            </h3>
+            <br />
+            <h5
+              class="h5"
+            >
+              Click here to get the details of all volunteers
+            </h5>
+            <div
+              class="xyz"
+            >
+              <br />
+              <Button
+                active={false}
+                disabled={false}
+                type="submit"
+                variant="light"
+              >
+                <Link
+                  to="/AllVolunteersDetails"
+                >
+                  Click Here
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div
+            class="boxes"
+          >
+            <h3
+              class="h3"
+            >
+              Available Volunteers
+            </h3>
+            <br />
+            <h5
+              class="h5"
+            >
+              Click here to get all available volunteers
+            </h5>
+            <div
+              class="xyz"
+            >
+              <br />
+              <Button
+                active={false}
+                disabled={false}
+                type="submit"
+                variant="light"
+              >
+                <Link
+                  to="/AvailableVolunteersDetails"
+                >
+                  Click Here
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div
+            class="boxes"
+          >
+            <h3
+              class="h3"
+            >
+              Unavailable Volunteers
+            </h3>
+            <br />
+            <h5
+              class="h5"
+            >
+              Click here to get all unavailable volunteers
+            </h5>
+            <div
+              class="xyz"
+            >
+              <br />
+              <Button
+                active={false}
+                disabled={false}
+                type="submit"
+                variant="light"
+              >
+                <Link
+                  to="/UnavailableVolunteersDetails"
+                >
+                  Click Here
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </React.Fragment>
+  </styled.div>,
+]
+`;

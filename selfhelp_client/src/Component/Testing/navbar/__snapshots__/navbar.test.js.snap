@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render my component 1`] = `
+Array [
+  <styled.div>
+    <Navbar
+      collapseOnSelect={false}
+      expand="xl"
+      fixed="top"
+      variant="light"
+    >
+      <NavbarBrand>
+        <img
+          className="d-inline align-top"
+          height="60"
+          src="mylogo.png"
+          width="60"
+        />
+        SELF HELP
+        <br />
+        <h5
+          className="heading"
+        >
+          A HELPING HAND
+        </h5>
+      </NavbarBrand>
+      <NavbarToggle
+        aria-controls="basic-navbar-nav"
+        label="Toggle navigation"
+      />
+      <NavbarCollapse
+        id="basic-navbar-nav"
+      >
+        <Nav
+          className="mr-auto ml-4"
+          fill={false}
+          justify={false}
+        >
+          <NavLink
+            activeClassName="active"
+            className="inactive mx-2"
+            exact={true}
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="inactive mx-2"
+            exact={true}
+            to="/AboutUs"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="inactive mx-2"
+            exact={true}
+            to="/ServiceList"
+          >
+            Our Services
+          </NavLink>
+        </Nav>
+        <Nav
+          className="ml-auto"
+          fill={false}
+          justify={false}
+        >
+          <NavDropdown
+            className="NavItems"
+            id="basic-nav-dropdown"
+            title="LOGIN"
+          >
+            <DropdownItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+            >
+              <Link
+                className="NavItems"
+                to="/Login"
+              >
+                Customer
+              </Link>
+            </DropdownItem>
+            <DropdownItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+            >
+              <Link
+                className="NavItems"
+                to="/VolunteerLogin"
+              >
+                Volunteer
+              </Link>
+            </DropdownItem>
+            <DropdownItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+            >
+              <Link
+                className="NavItems"
+                to="/Admin_Login"
+              >
+                Admin
+              </Link>
+            </DropdownItem>
+          </NavDropdown>
+          <NavDropdown
+            className="NavItems"
+            id="basic-nav-dropdown"
+            title="SIGNUP"
+          >
+            <DropdownItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+            >
+              <Link
+                className="NavItems"
+                to="/customerRegistration"
+              >
+                Customer
+              </Link>
+            </DropdownItem>
+            <DropdownItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              disabled={false}
+            >
+              <Link
+                className="NavItems"
+                to="/volunteerRegistration"
+              >
+                Volunteer
+              </Link>
+            </DropdownItem>
+          </NavDropdown>
+        </Nav>
+      </NavbarCollapse>
+    </Navbar>
+  </styled.div>,
+]
+`;
