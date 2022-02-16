@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customer Feedback should render my component 1`] = `
+Array [
+  <React.Fragment>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          Rating
+        </ModalTitle>
+      </ModalHeader>
+      <ModalBody>
+        <div
+          className="makeStyles-root-1"
+        >
+          <WithStyles(ForwardRef(Rating))
+            name="hover-feedback"
+            onChange={[Function]}
+            onChangeActive={[Function]}
+            precision={0.5}
+            value={2}
+          />
+          <Styled(MuiBox)
+            ml={2}
+          >
+            Poor+
+          </Styled(MuiBox)>
+        </div>
+      </ModalBody>
+      <ModalFooter>
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          variant="primary"
+        >
+          Close
+        </Button>
+      </ModalFooter>
+    </Modal>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <ModalTitle>
+          No Task Present For Feedback
+        </ModalTitle>
+      </ModalHeader>
+      <ModalFooter>
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          variant="primary"
+        >
+          Close
+        </Button>
+      </ModalFooter>
+    </Modal>
+    <NavigationBar />
+    <styled.div>
+      <h1>
+        YOUR PREVIOUSLY BOOKED SERVICES
+      </h1>
+      <Button
+        active={false}
+        className="buttons1"
+        disabled={false}
+        onClick={[Function]}
+        variant="secondary"
+      >
+        Click To RateUs
+      </Button>
+      <ForwardRef
+        condensed={true}
+        hover={true}
+        striped={true}
+      >
+        <thead>
+          <tr>
+            <th>
+              Service Name
+            </th>
+            <th>
+              Service status
+            </th>
+            <th>
+              Volunteer Name
+            </th>
+            <th>
+              Volunteer Phone Number
+            </th>
+            <th>
+              Date of Booking
+            </th>
+            <th>
+              Transaction Id 
+            </th>
+            <th>
+              Rating
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </ForwardRef>
+    </styled.div>
+  </React.Fragment>,
+]
+`;

@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Tasks should render my component 1`] = `
+Array [
+  <styled.div>
+    <React.Fragment>
+      <AdminNavigationBar />
+      <div
+        class="container1"
+      >
+        <div
+          class="boxes"
+        >
+          <h3
+            class="h3"
+          >
+            Completed Tasks
+          </h3>
+          <img
+            alt="price"
+            class="image"
+            src="done.jpg"
+          />
+          <br />
+          <h5
+            class="h5"
+          >
+            Click here to get all the completed tasks of the day
+          </h5>
+          <div
+            class="xyz"
+          >
+            <br />
+            <Button
+              active={false}
+              disabled={false}
+              type="submit"
+              variant="light"
+            >
+              <Link
+                to="/CompletedTasks"
+              >
+                Click Here
+              </Link>
+            </Button>
+          </div>
+        </div>
+        <div
+          class="boxes"
+        >
+          <h3
+            class="h3"
+          >
+            Pending Tasks
+          </h3>
+          <img
+            alt="price"
+            class="image2"
+            src="pending.png"
+          />
+          <br />
+          <h5
+            class="h5"
+          >
+            Click here to get all the pending tasks of the day
+          </h5>
+          <div
+            class="xyz"
+          >
+            <br />
+            <Button
+              active={false}
+              disabled={false}
+              type="submit"
+              variant="light"
+            >
+              <Link
+                to="/IncompleteTasks"
+              >
+                Click Here
+              </Link>
+            </Button>
+          </div>
+        </div>
+        <div
+          class="boxes"
+        >
+          <h3
+            class="h3"
+          >
+            Ongoing Tasks
+          </h3>
+          <img
+            alt="price"
+            class="image2"
+            src="inprogress.jpg"
+          />
+          <br />
+          <h5
+            class="h5"
+          >
+            Click here to get all the ongoing tasks of the day
+          </h5>
+          <div
+            class="xyz"
+          >
+            <br />
+            <Button
+              active={false}
+              disabled={false}
+              type="submit"
+              variant="light"
+            >
+              <Link
+                to="/OngoingTasks"
+              >
+                Click Here
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  </styled.div>,
+]
+`;

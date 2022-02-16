@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Available volunteer details should render my component 1`] = `
+Array [
+  <styled.div>
+    <React.Fragment>
+      <AdminNavigationBar />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Container
+        fluid={false}
+      >
+        <h3
+          class="h3"
+        >
+          Available Volunteer Details
+        </h3>
+        <table
+          className="table table-striped"
+          style={
+            Object {
+              "marginTop": 20,
+            }
+          }
+        >
+          <thead>
+            <tr>
+              <th>
+                First Name
+              </th>
+              <th>
+                Last Name
+              </th>
+              <th>
+                Gender
+              </th>
+              <th>
+                Phone number
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                Profession
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+        <o
+          activeClassName="active"
+          breakClassName="break-me"
+          breakLabel="..."
+          containerClassName="pagination"
+          disableInitialCallback={false}
+          disabledClassName="disabled"
+          eventListener="onClick"
+          marginPagesDisplayed={2}
+          nextAriaLabel="Next page"
+          nextClassName="next"
+          nextLabel="next"
+          nextRel="next"
+          onPageChange={[Function]}
+          pageCount={10}
+          pageLabelBuilder={[Function]}
+          pageRangeDisplayed={5}
+          prevRel="prev"
+          previousAriaLabel="Previous page"
+          previousClassName="previous"
+          previousLabel="prev"
+          subContainerClassName="pages pagination"
+        />
+      </Container>
+      <Footer />
+    </React.Fragment>
+  </styled.div>,
+]
+`;

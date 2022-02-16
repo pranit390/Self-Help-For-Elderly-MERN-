@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs should render my component 1`] = `
+Array [
+  <React.Fragment>
+    <NavigationBar />
+    <styled.div>
+      <div
+        className="section1"
+      >
+        <h1
+          className="heading1"
+        >
+          Why Self Help?
+        </h1>
+        <p
+          className="para"
+        >
+          Self Help offers the best nurses in Ahmedabad and is proud to provide the best doctors in Ahmedabad at your doorstep to your home though a few simple steps. Self Help has partnered with the 2018 winner for the best hospital in Gujarat – CIMS Hospital to provide the amazing team of doctors and nurses that offer a wide variety of services to your home backed by the excellent standard of care you expect from the best hospital in India, right within the comforts of your own home.
+        </p>
+        <h1
+          className="h1"
+        >
+          Why Choose Us?
+        </h1>
+        <p
+          className="list"
+        >
+           Self Help (A UNIT OF CIMS HOSPITAL PVT LTD) – we know what is required to meet your needs at home, even tailoring our services to meet individual needs. A level of service which emphasises on a high level of cleanliness and hygiene from our staff to meet and exceed the healthcare industry’s highest standards. People often compare services offered by two health care at home providers and find confusion on who to pick. With Self Help powered by CIMS Hospital which has been rated as one of the best hospitals for patient experience by patients through online reviews and testimonials, makes it easy for you to skip the need to spend time picking and choosing. It’s quite clear that Care At Homes is always going to be your first and last choice. It’s the winner all the time.
+          <ul>
+            <li
+              className="list1"
+            >
+               Self Help offers 24-hour services, including all holidays and weekends. 
+            </li>
+            <li
+              className="list1"
+            >
+               Self Help offers Highly trained and experienced healthcare professionals ! 
+            </li>
+            <li
+              className="list1"
+            >
+               Self Help offers Regular assessments by management to ensure client satisfaction ! 
+            </li>
+            <li
+              className="list1"
+            >
+               Self Help offers IN HOME consultation ! 
+            </li>
+          </ul>
+        </p>
+      </div>
+    </styled.div>
+    <Footer />
+  </React.Fragment>,
+]
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render my component 1`] = `
+Array [
+  <React.Fragment>
+    <div
+      className="contact"
+      id="contact"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="box text wow slideInRight"
+          >
+            <h2>
+              Get Connected With Us
+            </h2>
+            <p
+              className="title-p"
+            >
+              We Care About You.
+            </p>
+            <div
+              className="info"
+            >
+              <ul>
+                <li>
+                  <span
+                    className="fa fa-map-marker"
+                  />
+                   Silicon City, House no 11, New Delhi
+                </li>
+                <li>
+                  <span
+                    className="fa fa-phone"
+                  />
+                   91 9999999999
+                </li>
+                <li>
+                  <span
+                    className="fa fa-envelope"
+                  />
+                   info@elderlyhelp.com
+                </li>
+              </ul>
+            </div>
+            <div
+              class="social"
+            >
+              <a
+                href="https://www.facebook.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="fa fa-facebook"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="fa fa-linkedin"
+                />
+              </a>
+              <a
+                href="https://www.skype.com/en/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="fa fa-skype"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="fa fa-youtube-play"
+                />
+              </a>
+            </div>
+            <div
+              className="copyright"
+            >
+              <p>
+                © Copyright 2021
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </React.Fragment>,
+]
+`;
